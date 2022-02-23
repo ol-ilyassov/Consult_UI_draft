@@ -1,0 +1,124 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="header-row">
+      <div class="main-part">
+        <ion-buttons>
+          <ion-back-button mode="md" icon="chevron-back" defaultHref="#"></ion-back-button>
+        </ion-buttons>
+        <div class="avatar">
+          <img src="assets/doctor-avatar.png" alt="Specialist Photo">
+        </div>
+        <div class="user">
+          <ion-label>Dr. Navida</ion-label>
+          <p><ion-icon name="ellipse"></ion-icon>Online</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <!-- <ion-button class="btn-circle">
+          <ion-icon name="videocam"></ion-icon>
+        </ion-button>
+        <ion-button class="btn-circle">
+          <ion-icon name="call"></ion-icon>
+        </ion-button> -->
+
+        <button class="btn-circle" >
+          <ion-icon name="videocam"></ion-icon>
+        </button>
+        <button class="btn-circle" >
+          <ion-icon name="call"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="chat">
+
+    <div class="remote">
+      <div class="message-remote">
+        <p>
+          User the stick on other side fandit
+        </p>
+        <div><p class="time">8:20</p></div>
+      </div>
+    </div>
+
+    <div class="local">
+      <div class="message-local">
+        <p class="text">
+          Thanks Doc
+        </p>
+        <div><p class="time">8:29</p></div>
+      </div>
+    </div>
+
+    <div class="remote">
+      <div class="message-remote">
+        <p>
+          User the stick on other side fandit
+        </p>
+        <div><p class="time">8:20</p></div>
+      </div>
+    </div>
+
+    <div class="local">
+      <div class="message-local">
+        <p class="text">
+          Thanks Doc
+        </p>
+        <div><p class="time">8:29</p></div>
+      </div>
+    </div>
+
+    <div class="date">
+      <div class="line"></div>
+      <p>Today</p>
+      <div class="line"></div>
+    </div>
+
+    <div class="remote">
+      <div class="message-remote">
+        <p>
+          Morning!<br><br>
+          How the result, did it work well?
+        </p>
+        <div><p class="time">8:20</p></div>
+    </div>
+    </div>
+    <div class="local">
+      <div class="message-local">
+        <p>
+          Morning doc, the problem is solved. Thanks doc
+        </p>
+        <div><p class="time">8:26</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="typing">
+    <div class="text-input">
+      <ion-input type="text" placeholder="Type something..."></ion-input>
+    </div>
+    <div class="text-send">
+      <ion-button size="large" fill="clear">
+        <ion-icon slot="end" name="send"></ion-icon>
+      </ion-button>
+    </div>
+
+
+
+    <!-- <ion-item class="type-message">
+      <ion-input type="text" placeholder="Type something..."></ion-input>
+      <ion-button large fill="clear">
+        <ion-icon slot="end" name="send"></ion-icon>
+      </ion-button>
+       <button>
+        <ion-icon slot="end" name="send"></ion-icon>
+      </button>
+    </ion-item> -->
+  </div>
+</ion-content>

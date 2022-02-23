@@ -1,0 +1,145 @@
+
+* {
+  font-size: 1rem;
+  font-family: Arial;
+}
+
+ion-content {
+  width: 100%;
+  height: 100%;
+}
+
+.remote-video {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(../../assets/doctor2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.upper-panel {
+  display: flex;
+  flex-direction: row;
+
+  padding: 2rem;
+
+  .btn-back {
+    width: 70%;
+  }
+
+  .local-video {
+    width: 30%;
+    height: 8rem;
+    object-fit: cover;
+
+    overflow: hidden;
+    background-image: url(../../assets/doctor.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1rem;
+  }
+
+  ion-back-button {
+    --icon-font-size: 1rem;
+    --margin-start: -1rem;
+  }
+
+}
+
+.lower-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem 2rem 3.5rem 2rem;
+
+  .name {
+    font-weight: bold;
+    color: white;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+    p {
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .time {
+    margin: 0.5rem 0.5rem 2.5rem 0.5rem;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+    p {
+      font-size: 0.8rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .btn-videocam {
+      width: 3rem;
+      height: 3rem;
+      background: #a8aaa8;
+      border-radius: 50%;
+      margin: 0 0.8rem 0 0.8rem;
+
+      ion-icon {
+        color: white;
+        width: 55%;
+        height: 55%;
+      }
+    }
+
+    .btn-end-call {
+      width: 4rem;
+      height: 4rem;
+      background: #f23c3c;
+      border-radius: 50%;
+      margin: 0 0.8rem 0 0.8rem;
+
+      ion-icon {
+        color: white;
+        width: 55%;
+        height: 55%;
+        transform: rotate(135deg);
+      }
+    }
+
+    .btn-mic {
+      width: 3rem;
+      height: 3rem;
+      background: #a8aaa8;
+      border-radius: 50%;
+      margin: 0 0.8rem 0 0.8rem;
+
+      ion-icon {
+        color: white;
+        width: 55%;
+        height: 55%;
+      }
+    }
+  }
+}
+
+

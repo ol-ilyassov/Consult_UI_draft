@@ -1,0 +1,243 @@
+
+* {
+  font-size: 1rem;
+  font-family: Arial;
+}
+
+ion-content {
+  --background: #fefefe;
+}
+
+ion-grid {
+  --ion-grid-padding: 1rem;
+}
+
+/* Column #1 */
+
+ion-back-button {
+  --icon-font-size: 1rem;
+  --margin-start: -1rem;
+}
+
+#name {
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+#speciality {
+  font-size: 0.8rem;
+  color: grey;
+  margin-top: 0.3rem;
+}
+
+.rating {
+  display:flex;
+  flex-direction: row;
+  margin-top: 1.2rem;
+
+
+  .icon-back {
+    display: flex;
+    background-color: white;
+    border-radius: 0.4rem;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 105px 0.1px lightgrey;
+    //box-shadow: 1px 1px 1px 0.1px lightgrey;
+
+    ion-icon {
+      color: #ffd855;
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  .text {
+    display: flex;
+    margin-left: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #text-title {
+    font-size: 0.7rem;
+    color: grey;
+    margin-bottom: 0.3rem;
+  }
+
+  #text-number {
+    font-size: 0.9rem;
+  }
+}
+
+.patients {
+  display:flex;
+  flex-direction: row;
+  margin-top: 0.8rem;
+
+  .icon-back {
+    display: flex;
+    background-color: white;
+    border-radius: 0.4rem;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 105px 0.1px lightgrey;
+
+    ion-icon {
+      color: #3439b9;
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  .text {
+    display: flex;
+    margin-left: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #text-title {
+    font-size: 0.7rem;
+    color: grey;
+    margin-bottom: 0.3rem;
+  }
+
+  #text-number {
+    font-size: 0.9rem;
+  }
+}
+
+/* Column #2 */
+
+.second-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.photo-container {
+  //box-shadow: inset 0 0 0.8rem 0.6rem #fefefe;
+  //box-shadow: inset 0 -120px 20px -90px white;
+}
+
+.photo {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+  border-radius: 1rem;
+}
+
+/* --- */
+
+.biograpahy {
+  margin: 1rem;
+
+  #title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  #text {
+    color: grey;
+    font-size: 0.8rem;
+  }
+
+  #text-link a {
+    font-size: 0.8rem;
+  }
+}
+
+.schedule {
+  margin: 2rem 1rem 2rem 1rem;
+
+  #title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .schedule-blocks {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .f-block {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 3rem;
+    width: 3rem;
+
+    border: 0.5px solid lightgrey;
+    box-shadow: 0 0 105px 0.1px lightgrey;
+    background-color: white;
+    border-radius: 0.6rem;
+
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 0 0.8rem 0 0.8rem;
+  }
+
+  #day {
+    margin-top: 0.1rem;
+    font-size: 0.6rem;
+  }
+
+  .block {
+    display: flex;
+    background-color: white;
+    border-radius: 0.6rem;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid lightgrey;
+    box-shadow: 0 0 105px 0.1px lightgrey;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 0 0.8rem 0 0.8rem;
+  }
+}
+
+.final-button {
+  margin: 0 1rem 0 1rem;
+
+  ion-button {
+    height: 3.4rem;
+    font-size: 0.9rem;
+    text-transform: none;
+
+    --border-radius: 0.5rem;
+    --background: #393ECE;
+    //--background: linear-gradient(to bottom, #3b1ce2 0%, #393ECE 24%, #101379 100%);
+
+    .icon1 {
+      opacity: 100%;
+    }
+
+    .icon2 {
+      opacity: 75%;
+      margin-left: -0.5rem;
+    }
+
+    .icon3 {
+      opacity: 50%;
+      margin-left: -0.5rem;
+    }
+  }
+}

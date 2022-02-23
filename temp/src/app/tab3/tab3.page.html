@@ -1,0 +1,43 @@
+
+<ion-content>
+  <div class="remote-video">
+
+    <div class="upper-panel">
+      <div class="btn-back">
+        <ion-buttons>
+          <ion-back-button mode="md" icon="chevron-back" defaultHref="#"></ion-back-button>
+        </ion-buttons>
+      </div>
+
+      <div class="local-video"></div>
+    </div>
+
+    <div class="lower-panel">
+      <div class="name">
+        <p>Dr. Navida N</p>
+      </div>
+
+      <div class="time">
+        <p>01 : 20 : 56</p>
+      </div>
+
+      <div class="buttons">
+        <div class="videocam">
+          <button class="btn-videocam" (click)="changeVideocamState()">
+            <ion-icon [name]="videocamFlag ? 'videocam-outline' : 'videocam-off-outline'"></ion-icon>
+          </button>
+        </div>
+        <div class="end-call">
+          <button class="btn-end-call">
+            <ion-icon name="call"></ion-icon>
+          </button>
+        </div>
+        <div class="mic">
+          <button class="btn-mic" (click)="changeMicroState()">
+            <ion-icon [name]="microFlag ? 'mic-outline' : 'mic-off-outline'"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
